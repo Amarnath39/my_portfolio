@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%; 
+    /* margin: 100px; */
+    margin-left: 100px;
+}
+.listitem{
+     display: inline;   
+     margin-right: 50px
+}
+.logo{
+    width: 200px;
+    transition: width 1s;
+}
+.logo:hover{
+    width: 250px;
+}
+.link{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    transition: font-size 3s;
+}
+.link:hover{
+    color: red  ;
+    font-size: 30px;
+}
+.title{
+    margin-left: 10%;
+    margin-top: 13%;
+}
+.title-h{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.title-h span{
+    color: #e3a909;
+    text-shadow: 2px 1px #000000;
+}
+.title-p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    /* word-spacing: 3px; */
+}
+.download{
+    background-color: #000000;
+    padding: 10px 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.image{
+    position: absolute;
+    right: 90px;
+    bottom: 0px;
+    width: 20%;
+    height:70%;
+}
+.img{
+    width: 100%;
+    transition: width 2s;
+}
+ .img:hover{
+    width: 90%;
+} 
+#about{
+    margin-top: 35%;
+    margin-left: 8%;
+}
+.headings{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.headings h1{
+    font size: 40px;
+}
+.headings h3{
+    font-size: 30px;
+    color: green;
+}
+.abt-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.abt-img abtimg{
+    width: 100%;
+}
+.abt-intro{
+    font-size: 20px;
+    text-align:justify ;
+    margin-right: 70px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.skill{
+    display: flex;
+    justify-content: center ;
+}
+.skill-list{
+    position: relative;
+    top: 92px;
+    right: 100px;
+    /* background-color: aliceblue; */
+}
+#skill-item1{
+    margin-bottom: 35px;
+    background-color: lightcoral;
+    width: 700px;
+    height: 30px;
+    word-spacing: 600px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+#skill-item2{
+    margin-bottom: 35px;
+    background-color: lightgreen;
+    height: 30px;
+    width: 600px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}#skill-item3{
+    margin-bottom: 35px;
+    background-color: #f7f492;
+    height: 30px;
+    width: 500px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}#skill-item4{
+    margin-bottom: 35px;
+    background-color: lightblue;
+    height: 30px;
+    width: 450px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}#skill-item5{
+    margin-bottom: 35px;
+    background-color: lightslategray;
+    height: 30px;
+    width: 800px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+#skill-item6{
+    margin-bottom: 35px;
+    background-color:#7aff93;
+    height: 30px;
+    width: 750px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#skill-item7{
+    margin-bottom: 35px;
+    background-color: lightgreen;
+    height: 30px;
+    width: 800px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+#skill-item8{
+    margin-bottom: 35px;
+    background-color: lightblue;
+    height: 30px;
+    width: 800px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.skill-h{
+    position: relative;
+    left: 400px;
+}
+.contact-heading{
+    position: relative;
+    top: 200px;
+    left: 650px;
+}
+ .contact-h1{
+    position: relative;
+    top: 316px;
+    left: 300px;
+    font-size: 45px;
+    word-spacing: 10px; */
+} 
+.contact-h1 span{
+    color: red;
+}
+.contact-h1 span1{
+    color: green;
+}
+.contact-h1 span3{
+    color: orange;
+}
+ .contact-details1{
+    display: flex;
+    position: relative;
+    font-weight: bold;
+    left: 900px;
+    top: 218px;
+} 
+.contact-p{
+    margin-left: 10px;
+}
+.contact-details2{
+    display: flex;
+    position: relative;
+    font-weight: bold; 
+    left: 900px;
+    top: 235px;
+}
+.contact-p2{
+    margin-left: 10px;
+}
+.contact-details3{
+    display: flex;
+    position: relative;
+    left: 902px;
+    top: 250px;
+    font-weight: bold;
+}
+.contact-p3{
+    margin-left: 10px;
+} 
+
+
+
+
+
+
+
